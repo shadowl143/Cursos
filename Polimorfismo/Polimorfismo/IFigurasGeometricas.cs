@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polimorfismo
 {
-    interface IFigurasGeometricas
+    public interface IFigurasGeometricas
     {
         public string Area();
         public string Perimetro();
