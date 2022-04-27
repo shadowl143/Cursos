@@ -21,7 +21,8 @@ using Clases;
 
 /**
  * if else if if anidado switch
- * 
+ * loops for foreach, while, do while, while do
+ * list y arreglos
  * **/
 
 
