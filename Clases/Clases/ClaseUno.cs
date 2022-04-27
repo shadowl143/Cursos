@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
 
 
-    public class ClasePublica
+    public class ClasePublica:ClasePersona
     {
 
         
@@ -93,6 +93,15 @@
 
         }
 
+        public override void CrearAlumnos()
+        {
+            Console.WriteLine("Conocimo como override");
+        }
+
+        public override void CrearContenido()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

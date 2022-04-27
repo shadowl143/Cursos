@@ -5,16 +5,31 @@
  * mas de una sola linea*/
 
 
-/**
- * Clases
 
- * Objetos
- * Metodos
- * Herencia
- * Encapsulamiento
- * Abstraccion
- * Polimorfismo
- * */
+
+using Clases;
+/**
+* Clases
+* Objetos
+* Metodos
+* Herencia
+* Encapsulamiento
+* Abstraccion
+* Polimorfismo
+* override
+* */
+
+/**
+ * if else if if anidado switch
+ * 
+ * **/
+
+
+ClasePublica persona = new ClasePublica();
+
+persona.CrearAlumnos();
+
+
 
 
 
@@ -66,6 +81,9 @@ ClasePublica clase = new ClasePublica();
 clase.FormarVehiculo();
 string ObtenerSaludo = clase.SaludoAmigo("Saul");
 Console.WriteLine(ObtenerSaludo);
+
+ClaseDos claseD = new ClaseDos();
+claseD.CrearAlumnos();
 
 //ClasePublica clase1= new ClasePublica();
 //ClasePublica clase2= new ClasePublica();
