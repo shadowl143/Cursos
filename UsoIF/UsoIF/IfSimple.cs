@@ -14,6 +14,9 @@ namespace UsoIF
 
         }
 
+
+
+
         public void UsoDelIf(int edad)
         {
             if (edad==0)
