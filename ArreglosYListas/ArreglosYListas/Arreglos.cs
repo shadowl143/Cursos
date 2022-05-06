@@ -72,5 +72,30 @@ namespace ArreglosYListas
 
         }
 
+        public string[,] DarValorBi()
+        {
+            string[,] arrayBi=new string[4, 2];
+            for (int i = 0; i < 4; i++)//filas
+            {
+                Console.WriteLine("Escriba el Titulo");
+                arrayBi[i, 0] =Console.ReadLine();
+                Console.WriteLine("Escriba subtitulo");
+                arrayBi[i, 1] =Console.ReadLine();
+            }
+            return arrayBi;
+
+        }
+
+
+        public void MostrarValores(string [,] array,int contador)
+        {
+            for (int i = 0; i < contador; i++)
+            {
+                Console.WriteLine("Titulo:");
+                Console.WriteLine(array[i,0]);
+                Console.WriteLine("Subtitulo:");
+                Console.WriteLine(array[i,1]);
+            }
+        }
     }
 }
