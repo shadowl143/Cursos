@@ -16,6 +16,8 @@ namespace Clases
         //Metodo que retorne un string 
         public string AsignarNombre()
         {
+            //var palabra = "El Chavo del ocho";
+            //return palabra;
             return "Chilindrina";
         }
         
