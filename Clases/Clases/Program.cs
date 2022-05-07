@@ -26,65 +26,31 @@ using Clases;
  * **/
 
 
-ClasePublica persona = new ClasePublica();
+//ClasePublica persona = new ClasePublica();
 
-persona.CrearAlumnos();
+//persona.CrearAlumnos();
 
+RecibirDatos recibirDatos = new RecibirDatos();
+ClasesDeRetorno retorno = new ClasesDeRetorno();
 
+var asignarNombre = retorno.AsignarNombre();
+var valor = retorno.Valor();
+var fechaDeHoy = retorno.FechaDeHoy();
+var asignarArray = retorno.AsignarArray();
 
-
-
-
-
-
-
-
-
-
-
-
-
+recibirDatos.MostrarNombre(asignarNombre);
+recibirDatos.MostrarValor(valor);
+recibirDatos.MostrarFechaDeHoy(fechaDeHoy);
+recibirDatos.MostrarAsignarArray(asignarArray);
 
 
+//ClasePublica clase = new ClasePublica();
+//clase.FormarVehiculo();
+//string ObtenerSaludo = clase.SaludoAmigo("Saul");
+//Console.WriteLine(ObtenerSaludo);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ClasePublica clase = new ClasePublica();
-clase.FormarVehiculo();
-string ObtenerSaludo = clase.SaludoAmigo("Saul");
-Console.WriteLine(ObtenerSaludo);
-
-ClaseDos claseD = new ClaseDos();
-claseD.CrearAlumnos();
+//ClaseDos claseD = new ClaseDos();
+//claseD.CrearAlumnos();
 
 //ClasePublica clase1= new ClasePublica();
 //ClasePublica clase2= new ClasePublica();
